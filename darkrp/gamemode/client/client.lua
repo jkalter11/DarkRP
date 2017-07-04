@@ -30,3 +30,12 @@ AddEventHandler("darkrp:showtext", function(text)
 	AddTextComponentString(text)
 	DisplayHelpTextFromStringLabel(0, 0, 0, -1)
 end
+
+-- Events base
+
+RegisterNetEvent("darkrp:setUser")
+AddEventHandler("darkrp:setUser", function(infos)
+	for k,v in pairs(infos) do
+		User[k] = v
+	end
+end)
