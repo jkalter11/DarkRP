@@ -14,21 +14,13 @@ Version : 0.1.1
 
 [Twitter](https://twitter.com/ZuqaaOfficiel?lang=fr)
 
-## Tutorials
+# TODO List
 
- * [Money](#money)
- 
- #### Money
-
-The money is managed with direct SQL queries to prevent most potential value corruptions.
-The wallet empties itself when respawning (after death).
-
-```lua
-
--- Add money (wallet)
-user:addMoney(money)
-
-```
+- PetShop
+- Personal menu
+- Help Menu
+- F4 Menu
+- Scoreboard menu (with settings options and admin menu)
 
 ## Installation
 
