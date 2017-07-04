@@ -32,3 +32,7 @@ Version : 0.1.1
 - Drag the folder in your resources
 - Use my citmp-server.yml
 - Launch your server
+
+# F.A.Q
+
+- Is playable? Not actually is an alpha version
