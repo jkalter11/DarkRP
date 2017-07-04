@@ -39,6 +39,8 @@ config.pricecarwash = 50
 Other settings
 ---------------------------------------------------------------------------]]
 
+-- GameMode name
+config.gamemode = "DarkRP"
 -- Your community name
 config.communityname = "YOURCOMMUNTIY"
 -- Your site
@@ -47,5 +49,7 @@ config.siteweb = "www.yourwebsite.com"
 config.currency = "$"
 -- Ban Reason
 config.banreason = "You are currently banned. Please go to: "..config.siteweb.."/bans"
+-- Spawn Message
+config.spawnmessage = "Welcome to ~g~"..config.communityname.."~s~ !\n~y~For more info, go to : ~b~"..config.siteweb.."~s~ !"
 
 return config
