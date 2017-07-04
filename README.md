@@ -8,13 +8,14 @@ Version : 0.1.1
 
 # Infos
 
-[Discord](https://discord.gg/T9z7cNK)
+- [Discord](https://discord.gg/T9z7cNK)
 
-[FiveM](https://forum.fivem.net/u/Goku_San/activity)
+- [FiveM](https://forum.fivem.net/u/Goku_San/activity)
 
-[Twitter](https://twitter.com/ZuqaaOfficiel?lang=fr)
+- [Twitter](https://twitter.com/ZuqaaOfficiel?lang=fr)
 
 - You want contribute to the project, so publish a pull-request !
+
 - You perceived a bug in-game. The section "issues" is for you there:)
 
 # TODO List
@@ -29,5 +30,5 @@ Version : 0.1.1
 
 - Download the files
 - Drag the folder in your resources
-- use my citmp-server.yml
+- Use my citmp-server.yml
 - Launch your server
