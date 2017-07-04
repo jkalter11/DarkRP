@@ -1,5 +1,4 @@
 -- DarkRP config settings
-require "resources/darkrp/lib/MySQL"
 
 config {}
 
@@ -9,10 +8,10 @@ Database settings
 
 -- database
 config.database = {
-	host = "127.0.0.1",
-	name = "changeme",
-	username = "changeme",
-	password = "changeme"
+  host = "127.0.0.1",
+  name = "changeme",
+  username = "changeme",
+  password = "changeme"
 }
 
 --[[

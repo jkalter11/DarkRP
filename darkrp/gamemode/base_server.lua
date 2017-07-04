@@ -1,4 +1,9 @@
+require "resources/darkrp/lib/MySQL"
+local config = require("resources/darkrp/config/config")
 local version = require("resources/darkrp/version")
+
+-- open mysql
+MySQL:open(config.database.host, config.database.name, config.database.username, config.database.password)
 
 -- check version
 print("Version : "..version)
