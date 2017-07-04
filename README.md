@@ -1,4 +1,4 @@
-# DarkRP - v0.1.1
+# DarkRP - 0.1.1
 
 DarkRP - RolePlay Gamemode similar to DarkRP gamemode on Garry's Mod
 
