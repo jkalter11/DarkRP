@@ -8,6 +8,11 @@ AutoStartResources:
     - darkrp_gamemode #GameMode who replace fivem gamemode
     - mysql-async
     - banking
+    - chat
+    - spawnmanager
+    - baseevents
+    - rconlog
+    - hardcap # prevents the game from breaking
     - es_afterStart
     #LET ES_AFTERSTART IN LAST
 
@@ -27,10 +32,10 @@ ScriptDebug: true
 DebugLog: true
 
 # set to false to hide from the online server list
-Announce: false
+Announce: true
 
 # set to false to require players to be signed in to Steam
-DisableAuth: false
+DisableAuth: true
 
 # set to true to disable local script hook plugins
 
