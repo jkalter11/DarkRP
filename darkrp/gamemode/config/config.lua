@@ -38,8 +38,10 @@ Other settings
 -- Your community name
 config.communityname = "YOURCOMMUNTIY"
 -- Your site
-config.siteweb = "WWW.YOURSITE.COM"
+config.siteweb = "www.yourwebsite.com"
 -- Currency
 config.currency = "$"
+-- Ban Reason
+config.banreason = "You are currently banned. Please go to: "..config.siteweb.."/bans"
 
 return config

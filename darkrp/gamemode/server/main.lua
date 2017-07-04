@@ -5,7 +5,7 @@ Users = {}
 commands = {}
 settings = {}
 settings.defaultSettings = {
-	['banReason'] = "You are currently banned. Please go to: "..config.siteweb.."/bans",
+	['banReason'] = config.banreason,
 	['pvpEnabled'] = config.pvpEnabled,
 	['permissionDenied'] = config.permissionDenied,
 	['debugInformation'] = config.debugInformation,
@@ -13,7 +13,8 @@ settings.defaultSettings = {
 	['enableRankDecorators'] = config.enableRankDecorators,
 	['spawnx'] = config.spawnx,
 	['spawny'] = config.spawny,
-	['spawnz'] = config.spawnxz
+	['spawnz'] = config.spawnxz,
+	['moneyIcon'] = config.currency
 }
 settings.sessionSettings = {}
 
@@ -174,6 +175,6 @@ end)
 commands['info'] = {}
 commands['info'].perm = 0
 commands['info'].cmd = function(source, args, user)
-	--TriggerClientEvent('chatMessage', source, 'SYSTEM', {255, 0, 0}, "^2[^3EssentialMode^2]^0 Version: ^22.0.0")
-	--TriggerClientEvent('chatMessage', source, 'SYSTEM', {255, 0, 0}, "^2[^3EssentialMode^2]^0 Commands loaded: ^2" .. (returnIndexesInTable(commands) - 1))
+	TriggerClientEvent('chatMessage', source, 'SYSTEM', {255, 0, 0}, "^2[^3DarkRP^2]^0 Version: ^2"..config.version)
+	TriggerClientEvent('chatMessage', source, 'SYSTEM', {255, 0, 0}, "^2[^3DarkRP^2]^0 Commands loaded: ^2" .. (returnIndexesInTable(commands) - 1))
 end
