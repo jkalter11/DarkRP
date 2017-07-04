@@ -14,6 +14,9 @@ Version : 0.1.1
 
 [Twitter](https://twitter.com/ZuqaaOfficiel?lang=fr)
 
+- You want contribute to the project, so publish a pull-request !
+- You perceived a bug in-game. The section "issues" is for you there:)
+
 # TODO List
 
 - PetShop
@@ -26,5 +29,5 @@ Version : 0.1.1
 
 - Download the files
 - Drag the folder in your resources
-- add "- darkrp" in your citmp-server
+- use my citmp-server.yml
 - Launch your server
