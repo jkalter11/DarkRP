@@ -1,6 +1,10 @@
-# DarkRP - 0.1.1
+# DarkRP
 
 DarkRP - RolePlay Gamemode similar to DarkRP gamemode on Garry's Mod
+
+Project : Started the 04/07/2017
+
+Version : 0.1.1
 
 # Infos
 
@@ -9,6 +13,10 @@ DarkRP - RolePlay Gamemode similar to DarkRP gamemode on Garry's Mod
 [FiveM](https://forum.fivem.net/u/Goku_San/activity)
 
 [Twitter](https://twitter.com/ZuqaaOfficiel?lang=fr)
+
+## Tutorials
+
+ * [Money](#money)
 
 ## Installation
 
