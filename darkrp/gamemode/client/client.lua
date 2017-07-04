@@ -1,28 +1,4 @@
-local config = require("resources/darkrp/config/config")
-
--- periodic player state update
-
-local state_ready = false
-
-AddEventHandler("playerSpawned",function() -- delay state recording
-  state_ready = false
-  
-  Citizen.CreateThread(function()
-    Citizen.Wait(30000)
-    state_ready = true
-  end)
-end)
-
-Citizen.CreateThread(function()
-  while true do
-    Citizen.Wait(30000)
-
-    if IsPlayerPlaying(PlayerId()) and state_ready then
-      local x,y,z = table.unpack(GetEntityCoords(GetPlayerPed(-1),true))
-	  TriggerServerEvent("SavePlayer", x,y,z, getHealth(), getWeapons(), getCustomization())
-    end
-  end
-end)
+local config = require("resources/darkrp/gamemode/config/config")
 
 -- All Notify/ShowText
 

@@ -1,18 +1,6 @@
 -- DarkRP config settings
 
-config {}
-
---[[
-Database settings
-]]
-
--- database
-config.database = {
-  host = "127.0.0.1",
-  name = "changeme",
-  username = "changeme",
-  password = "changeme"
-}
+local cfg = {}
 
 --[[
 Toggle settings.
@@ -23,8 +11,12 @@ Set to true or false.
 config.pvpEnabled = true
 -- Debug
 config.debugInformation = false
+-- Permission Denied
+config.permissionDenied = false
 -- Native Money System
 config.nativeMoneySystem = true
+-- Enable Rank Decorators
+config.enableRankDecorators = false
 
 --[[
 Value settings
@@ -32,6 +24,12 @@ Value settings
 
 -- startingcash - your wallet when you join for the first time.
 config.startingCash = 100
+-- spawn settings (only for first spawn)
+config.spawnx = -1037.927
+config.spawny = -2738.061
+config.spawnz = 20.169
+-- version
+config.version = 0.1.1
 
 --[[---------------------------------------------------------------------------
 Other settings
@@ -43,19 +41,5 @@ config.communityname = "YOURCOMMUNTIY"
 config.siteweb = "WWW.YOURSITE.COM"
 -- Currency
 config.currency = "$"
--- define the first spawn position/radius of the player (very first spawn on the server, or after death)
-config.spawn_enabled = false -- set to false to disable the feature
--- First Spawn Coords
-config.spawn_position = {1854.21, 3685.51, 34.2671}
--- radius of spawn
-config.spawn_radius = 1
--- mp_m_freemode_01 (male) or mp_f_freemode_01 (female)
-config.default_customization = {
-  model = "mp_m_freemode_01" 
-}
--- init default ped parts
-for i=0,19 do
-  config.default_customization[i] = {0,0}
-end
 
 return config

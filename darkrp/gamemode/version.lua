@@ -1,1 +1,3 @@
-return 0.1
+local config = ("resources/darkrp/gamemode/config/config")
+
+return config.version
