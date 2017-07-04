@@ -17,6 +17,18 @@ Version : 0.1.1
 ## Tutorials
 
  * [Money](#money)
+ 
+ #### Money
+
+The money is managed with direct SQL queries to prevent most potential value corruptions.
+The wallet empties itself when respawning (after death).
+
+```lua
+
+-- Add money (wallet)
+user:addMoney(money)
+
+```
 
 ## Installation
 
