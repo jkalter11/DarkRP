@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(0)
 
 		if NetworkIsSessionStarted() then
-			TriggerServerEvent('es:firstJoinProper')
+			TriggerServerEvent('darkrp:firstJoinProper')
 			return
 		end
 	end
@@ -25,7 +25,7 @@ Citizen.CreateThread(function()
 		local pos = GetEntityCoords(GetPlayerPed(-1))
 
 		if(oldPos ~= pos)then
-			TriggerServerEvent('es:updatePositions', pos.x, pos.y, pos.z)
+			TriggerServerEvent('darkrp:updatePositions', pos.x, pos.y, pos.z)
 
 			if(loaded)then
 				SendNUIMessage({
@@ -43,8 +43,8 @@ end)
 
 local myDecorators = {}
 
-RegisterNetEvent("es:setPlayerDecorator")
-AddEventHandler("es:setPlayerDecorator", function(key, value, doNow)
+RegisterNetEvent("darkrp:setPlayerDecorator")
+AddEventHandler("darkrp:setPlayerDecorator", function(key, value, doNow)
 	myDecorators[key] = value
 	DecorRegister(key, 3)
 
@@ -59,8 +59,8 @@ AddEventHandler("playerSpawned", function()
 	end
 end)
 
-RegisterNetEvent('es:activateMoney')
-AddEventHandler('es:activateMoney', function(e, v)
+RegisterNetEvent('darkrp:activateMoney')
+AddEventHandler('darkrp:activateMoney', function(e, v)
 	SendNUIMessage({
 		setmoney = true,
 		money = e,
@@ -68,8 +68,8 @@ AddEventHandler('es:activateMoney', function(e, v)
 	})
 end)
 
-RegisterNetEvent("es:addedMoney")
-AddEventHandler("es:addedMoney", function(m, v)
+RegisterNetEvent("darkrp:addedMoney")
+AddEventHandler("darkrp:addedMoney", function(m, v)
 	SendNUIMessage({
 		addcash = true,
 		money = m,
@@ -78,8 +78,8 @@ AddEventHandler("es:addedMoney", function(m, v)
 
 end)
 
-RegisterNetEvent("es:removedMoney")
-AddEventHandler("es:removedMoney", function(m, v)
+RegisterNetEvent("darkrp:removedMoney")
+AddEventHandler("darkrp:removedMoney", function(m, v)
 	SendNUIMessage({
 		removecash = true,
 		money = m,
@@ -87,16 +87,16 @@ AddEventHandler("es:removedMoney", function(m, v)
 	})
 end)
 
-RegisterNetEvent("es:setMoneyDisplay")
-AddEventHandler("es:setMoneyDisplay", function(val)
+RegisterNetEvent("darkrp:setMoneyDisplay")
+AddEventHandler("darkrp:setMoneyDisplay", function(val)
 	SendNUIMessage({
 		setDisplay = true,
 		display = val
 	})
 end)
 
-RegisterNetEvent("es:enablePvp")
-AddEventHandler("es:enablePvp", function()
+RegisterNetEvent("darkrp:enablePvp")
+AddEventHandler("darkrp:enablePvp", function()
 	Citizen.CreateThread(function()
 		while true do
 			Citizen.Wait(0)
