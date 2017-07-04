@@ -17,6 +17,8 @@ config.permissionDenied = false
 config.nativeMoneySystem = true
 -- Enable Rank Decorators
 config.enableRankDecorators = false
+-- Car Wash is paid
+config.carwashispaid = true
 
 --[[
 Value settings
@@ -30,6 +32,8 @@ config.spawny = -2738.061
 config.spawnz = 20.169
 -- version
 config.version = 0.1.1
+-- Car Wash Price
+config.pricecarwash = 50
 
 --[[---------------------------------------------------------------------------
 Other settings
