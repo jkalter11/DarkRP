@@ -1,4 +1,4 @@
-﻿local config = ("resources/darkrp/gamemode/config/config")
+﻿local config = ("resources/darkrp/config/config")
 
 -- Server
 Users = {}
