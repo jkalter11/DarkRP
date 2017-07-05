@@ -1,6 +1,6 @@
 --DO-NOT-EDIT-BELLOW-THIS-LINE--
 
-local config = require("resources/darkrp/gamemode/config/config")
+local config = require("resources/darkrp/config/config")
 
 Key = 201 -- ENTER
 
