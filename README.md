@@ -31,6 +31,7 @@ Version : 0.1.1
 - Blips
 - Register
 - Driver Licence
+
 If you have an suggestion pls post this in issues or on the Discord :)
 
 ## Installation
