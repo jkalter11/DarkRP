@@ -1,6 +1,6 @@
 RegisterServerEvent('darkrp:updateUser')
 AddEventHandler('darkrp:updateUser', function(openMenu)
--print("[DarkRP] - Updating User...")
+print("[DarkRP] - Updating User...")
 
 	local userInfos = {}
 
