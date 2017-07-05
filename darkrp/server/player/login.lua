@@ -1,8 +1,6 @@
 -- Loading MySQL Class
 require "resources/mysql-async/lib/MySQL"
 
-local config = require("resources/darkrp/config/config")
-
 telist = {}
 
 local countItems = MySQL.Sync.fetchScalar("SELECT COUNT(1) FROM items")

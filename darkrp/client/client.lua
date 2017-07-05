@@ -1,5 +1,3 @@
-local config = require("resources/darkrp/config/config")
-
 -- All Notify/ShowText
 
 

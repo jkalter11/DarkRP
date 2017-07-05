@@ -31,7 +31,7 @@ client_script "modules/jobs/jobs-legal/trucker_client.lua"
 client_script "modules/jobs/jobs-legal/mine_jobs.lua"
 client_script "modules/jobs/jobs-legal/morg_client.lua"
 client_script "modules/jobs/jobs-legal/org_client.lua"
-server_script 'modules/jobs/jobs-legal/modules/jobs/sv_jobs.lua'
+server_script "modules/jobs/sv_jobs.lua"
 server_script "modules/jobs/jobs-legal/jobslegal_server.lua"
 server_script "modules/jobs/jobs-legal/morg_server.lua"
 

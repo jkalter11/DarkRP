@@ -1,6 +1,4 @@
-﻿local config = ("resources/darkrp/config/config")
-
--- Server
+﻿-- Server
 Users = {}
 commands = {}
 settings = {}

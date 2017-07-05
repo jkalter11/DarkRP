@@ -1,5 +1,3 @@
-local config = require("resources/darkrp/config/config")
-
 --Settings--
 
 enableprice = config.carwashispaid -- true = carwash is paid, false = carwash is free
