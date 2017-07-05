@@ -6,7 +6,6 @@ PreParseResources:
 AutoStartResources:
     - darkrp
     - darkrp_gamemode #GameMode who replace fivem gamemode
-    - mysql-async
     - banking
     - chat
     - spawnmanager
