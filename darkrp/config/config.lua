@@ -34,8 +34,6 @@ config.spawnz = 20.169
 config.hospital.x = 306.72396850586
 config.hospital.y = -1434.4223632813
 config.hospital.z = 29.804103851318
--- version
-config.version = 0.1.1
 -- Car Wash Price
 config.pricecarwash = 50
 
