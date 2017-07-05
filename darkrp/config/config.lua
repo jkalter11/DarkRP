@@ -30,6 +30,10 @@ config.startingCash = 100
 config.spawnx = -1037.927
 config.spawny = -2738.061
 config.spawnz = 20.169
+-- hospital settings
+config.hospital.x = 306.72396850586
+config.hospital.y = -1434.4223632813
+config.hospital.z = 29.804103851318
 -- version
 config.version = 0.1.1
 -- Car Wash Price

@@ -1,15 +1,9 @@
--- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
--- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
--- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
--- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
--- I TOUCHED IT KANERSPS, PLEASE DON'T RAGE AT ME FOR THIS, DRAZIAK --
-
 -- Loading MySQL Class
 require "resources/mysql-async/lib/MySQL"
 
-telist = {}
+local config = require("resources/darkrp/config/config")
 
-local hopital = { x = 306.72396850586, y = -1434.4223632813, z = 29.804103851318  }
+telist = {}
 
 local countItems = MySQL.Sync.fetchScalar("SELECT COUNT(1) FROM items")
 
@@ -226,7 +220,7 @@ function registerUser(identifier, source)
 			MySQL.Async.execute("INSERT INTO user_vehicle (`identifier`, `vehicle_name`, `vehicle_model`, `vehicle_price`, `vehicle_plate`, `vehicle_state`, `vehicle_colorprimary`, `vehicle_colorsecondary`, `vehicle_pearlescentcolor`, `vehicle_wheelcolor`) VALUES (@username, 'Faggio', 'faggio2', '4000',@plate, 'Rentré', '4', '0', '111', '156')",
 			{['@username'] = identifier, ['@plate'] = string.upper(plateveh)})
 
-			TriggerClientEvent("ccreation:menu", source)
+			TriggerClientEvent("register:menu", source)
 
 			LoadUser(identifier, source, true)
 		else
