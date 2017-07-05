@@ -321,7 +321,7 @@ Citizen.CreateThread(function()
 	        end
 		end
 		
-		if IsControlJustPressed(1,170) and (clientjobID == 19) then
+		if (User.enService == 1) and IsControlJustPressed(1,170) then
 			if IsPedInAnyVehicle(LocalPed(), true) == false then
 			if (inmenuinv == 0) and (inmenucivil == 0) then
 				if policemenu.opened then
