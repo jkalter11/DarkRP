@@ -1,3 +1,3 @@
-resource_type 'map' { gameTypes = { darkrp_gamemode = true } }
+resource_type 'map' {  name = 'DarkRP Server', gameTypes = { darkrp_gamemode = true } }
 
 map 'map.lua'

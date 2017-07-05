@@ -1,8 +1,8 @@
 local version = require("resources/darkrp/version")
 
 -- check version
-print("Version : "..version)
-PerformHttpRequest("https://raw.githubusercontent.com/RyUkApples/DarkRP/master/darkrp/gamemode/version.lua",function(err,text,headers)
+print("DarkRP - Version : "..version)
+PerformHttpRequest("https://raw.githubusercontent.com/RyUkApples/DarkRP/master/darkrp/version.lua",function(err,text,headers)
   if err == 0 then
     text = string.gsub(text,"return ","")
     local r_version = tonumber(text)
