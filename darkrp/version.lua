@@ -1,3 +1,3 @@
-local config = ("resources/darkrp/gamemode/config/config")
+local config = ("resources/darkrp/config/config")
 
 return config.version
