@@ -25,6 +25,14 @@ Version : 0.1.1
 - Help Menu
 - F4 Menu
 - Scoreboard menu (with settings options and admin menu)
+- SkinShop
+- FoodShop
+- ATMs
+- Blips
+- Register
+- Driver Licence
+
+If you have an suggestion pls post this in issues or on the Discord :)
 
 ## Installation
 

@@ -1,4 +1,4 @@
-local config = require("resources/darkrp/gamemode/config/config")
+local config = require("resources/darkrp/config/config")
 
 -- All Notify/ShowText
 
