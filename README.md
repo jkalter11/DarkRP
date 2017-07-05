@@ -31,6 +31,7 @@ Version : 0.1.1
 - Download the files
 - Drag the folder in your resources
 - Use my citmp-server.yml
+- Config : darkrp/config and mysql-async/lig/config.lua
 - Launch your server
 
 # F.A.Q
