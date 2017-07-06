@@ -37,9 +37,10 @@ DebugLog: true
 Announce: true
 
 # set to false to require players to be signed in to Steam
-DisableAuth: true
+DisableAuth: false
 
 # set to true to disable local script hook plugins
+DisableScriptHook: true
 
 # set to the path of an icon to use in the server browser. it should be square.
 ServerIcon: hello.png
