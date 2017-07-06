@@ -9,7 +9,6 @@ AutoStartResources:
     - darkrp_map #Map 
     - mysql-async
     - banking
-    - register
     - chat
     - spawnmanager
     - baseevents
