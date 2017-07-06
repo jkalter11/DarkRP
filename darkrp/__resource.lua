@@ -33,4 +33,5 @@ server_script "modules/jobs/jobs-legal/jobslegal_server.lua"
 client_script 'config/config.lua'
 client_script 'modules/carwash/carwash_client.lua'
 client_script 'client/main.lua'
+client_script 'client/spawn.lua'
 client_script 'client/client.lua'

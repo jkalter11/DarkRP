@@ -48,7 +48,18 @@ AddEventHandler("darkrp:showtext", function(text)
 	SetTextEntry_2("STRING")
 	AddTextComponentString(text)
 	DrawSubtitleTimed(time, 1)
+end)
+
+-- Replace echap text
+
+function AddTextEntry(key, value)
+	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
 end
+
+Citizen.CreateThread(function()
+  AddTextEntry('FE_THDR_GTAO', config.communityname)
+end)
+
 
 -- Events base
 
