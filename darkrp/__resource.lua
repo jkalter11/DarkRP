@@ -6,7 +6,7 @@ description 'DarkRP by Zuqaa'
 ui_page 'ui/ui.html'
 
 -- NUI Files
-files {
+files{
 	'ui/ui.html',
 	'ui/pdown.ttf'
 }
@@ -26,15 +26,8 @@ server_script 'server/name.lua'
 client_script 'modules/carwash/carwash_server.lua'
 client_script 'modules/jobs/police/police-menu.lua'
 client_script "modules/jobs/jobs-legal/jobslegal_client.lua"
-client_script "modules/jobs/jobs-legal/pooljob_client.lua"
-client_script "modules/jobs/jobs-legal/trashjob_client.lua"
-client_script "modules/jobs/jobs-legal/trucker_client.lua"
-client_script "modules/jobs/jobs-legal/mine_jobs.lua"
-client_script "modules/jobs/jobs-legal/morg_client.lua"
-client_script "modules/jobs/jobs-legal/org_client.lua"
 server_script "modules/jobs/sv_jobs.lua"
 server_script "modules/jobs/jobs-legal/jobslegal_server.lua"
-server_script "modules/jobs/jobs-legal/morg_server.lua"
 
 -- Client
 client_script 'config/config.lua'
